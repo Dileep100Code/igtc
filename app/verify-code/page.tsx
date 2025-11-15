@@ -1,9 +1,9 @@
-'use client';
+"use client";
 import { useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import '../login-form.css';
 
-export default function VerifyCode() {
+export default function VerifyCodeClient() {
   const [code, setCode] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -17,7 +17,7 @@ export default function VerifyCode() {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:3000/api/auth/verify-reset-code', {
+      const response = await fetch('/api/auth/verify-reset-code', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, code })
@@ -42,9 +42,7 @@ export default function VerifyCode() {
       <form className="form" onSubmit={handleSubmit}>
         <h2 className="text-2xl font-bold text-center mb-6 text-black">Verify Code</h2>
         <p className="p text-center mb-4">Enter the 6-digit code sent to {email}</p>
-        
         {error && <div className="text-red-500 text-sm mb-4 text-center">{error}</div>}
-        
         <div className="flex-column">
           <label>Verification Code</label>
         </div>
@@ -62,13 +60,11 @@ export default function VerifyCode() {
             required
           />
         </div>
-        
         <button className="button-submit" type="submit" disabled={loading}>
           {loading ? 'Verifying...' : 'Verify Code'}
         </button>
-        
         <p className="p">Didn't receive code? <a href={`/forgot-password?email=${email}`} className="span">Resend</a></p>
       </form>
     </div>
-  )
+  );
 }
