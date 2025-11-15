@@ -1,0 +1,433 @@
+
+/* Profile Page 3D Card Styles */
+.profile-3d-container {
+  perspective: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.profile-3d-card {
+  width: 100%;
+  /* make the embedded profile noticeably larger on desktop */
+  max-width: 920px;
+  /* taller card to comfortably fit header + stats + details */
+  min-height: 640px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+}
+
+.profile-3d-card:hover {
+  transform: rotateY(5deg) rotateX(-5deg);
+}
+
+.profile-3d-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+}
+
+.profile-3d-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(251, 146, 60, 0.2) 100%);
+  border: 1px solid rgba(251, 146, 60, 0.3);
+  /* allow internal scrolling if content exceeds the card height */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  /* add more top padding to give header breathing room on larger embeds */
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.profile-3d-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.9) 0%, rgba(251, 146, 60, 0.2) 100%);
+  border: 1px solid rgba(251, 146, 60, 0.3);
+  /* allow internal scrolling on the back/edit side too */
+  overflow: auto;
+  transform: rotateY(180deg);
+  /* keep consistent padding for back side */
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.flip-card {
+  transform: rotateY(180deg);
+}
+
+/* Header section with avatar and user info */
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* comfortable spacing for larger embed */
+  margin: 0 0 2rem 0;
+  padding-top: 0.35rem;
+  position: relative;
+}
+
+.profile-avatar-container {
+  position: relative;
+  /* make avatar larger for big embedded profile */
+  width: 160px;
+  height: 160px;
+  perspective: 500px;
+}
+
+.profile-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(251, 146, 60, 0.75);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s ease;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.05);
+}
+
+.profile-info {
+  flex: 1;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.profile-name {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+  line-height: 1;
+  background: linear-gradient(to right, #fff, rgba(251, 146, 60, 0.95));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 3px 20px rgba(0, 0, 0, 0.35);
+}
+
+.profile-email {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+}
+
+.profile-id {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  width: fit-content;
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+/* Stats section */
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+  padding: 0.75rem;
+}
+
+.stat-value {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: rgba(251, 146, 60, 1);
+  margin-bottom: 0.2rem;
+}
+
+.stat-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
+}
+
+/* Details section */
+.profile-details {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.detail-item {
+  display: flex;
+  margin-bottom: 0.8rem;
+  align-items: center;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: rgba(251, 146, 60, 0.8);
+  width: 120px;
+  flex-shrink: 0;
+}
+
+.detail-value {
+  color: rgba(255, 255, 255, 0.9);
+  flex: 1;
+}
+
+/* Games section */
+.profile-games {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.games-title {
+  font-weight: bold;
+  color: rgba(251, 146, 60, 0.8);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.game-tag {
+  background: rgba(251, 146, 60, 0.2);
+  border: 1px solid rgba(251, 146, 60, 0.4);
+  color: rgba(255, 255, 255, 0.95);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.game-tag:hover {
+  background: rgba(251, 146, 60, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Actions section */
+.profile-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.action-btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.primary-btn {
+  background: linear-gradient(to right, rgba(251, 146, 60, 0.8), rgba(251, 146, 60, 0.6));
+  color: #000;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(251, 146, 60, 0.4);
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Flip button */
+.flip-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.flip-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(180deg);
+}
+
+/* Edit form on back of card */
+.edit-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-label {
+  color: rgba(251, 146, 60, 0.8);
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 0.8rem;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: rgba(251, 146, 60, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-3d-card {
+    max-width: 95%;
+    min-height: 520px;
+  }
+
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-info {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .profile-avatar-container {
+    width: 110px;
+    height: 110px;
+  }
+
+  .profile-name {
+    font-size: 1.6rem;
+  }
+
+  .stat-value {
+    font-size: 1.6rem;
+  }
+
+  .profile-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    padding: 0.8rem;
+  }
+}
+
+/* Sparkles effect */
+.sparkles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.sparkle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  animation: sparkle-animation 3s infinite ease-in-out;
+}
+
+@keyframes sparkle-animation {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Generate random positions for sparkles */
+.sparkle:nth-child(1) { top: 10%; left: 20%; animation-delay: 0s; }
+.sparkle:nth-child(2) { top: 20%; left: 80%; animation-delay: 0.3s; }
+.sparkle:nth-child(3) { top: 30%; left: 40%; animation-delay: 0.6s; }
+.sparkle:nth-child(4) { top: 40%; left: 60%; animation-delay: 0.9s; }
+.sparkle:nth-child(5) { top: 50%; left: 30%; animation-delay: 1.2s; }
+.sparkle:nth-child(6) { top: 60%; left: 70%; animation-delay: 1.5s; }
+.sparkle:nth-child(7) { top: 70%; left: 50%; animation-delay: 1.8s; }
+.sparkle:nth-child(8) { top: 80%; left: 25%; animation-delay: 2.1s; }
+.sparkle:nth-child(9) { top: 90%; left: 75%; animation-delay: 2.4s; }
+.sparkle:nth-child(10) { top: 15%; left: 55%; animation-delay: 2.7s; }

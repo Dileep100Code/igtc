@@ -1,0 +1,1219 @@
+[2025-11-06T15:46:34.783Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dilip",
+    "email": "dilipmlritm@gmail.com",
+    "mobile": "7075571635",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-06T15:46:34.782Z"
+}
+
+[2025-11-06T16:04:12.128Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dileep",
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-06T16:04:12.127Z"
+}
+
+[2025-11-08T14:40:48.769Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T14:40:48.769Z"
+}
+
+[2025-11-08T14:41:08.071Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dileep",
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T14:41:08.071Z"
+}
+
+[2025-11-08T14:41:59.519Z] {
+  "action": "API Request: POST /verify-email",
+  "method": "POST",
+  "path": "/verify-email",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "code": "574917"
+  },
+  "timestamp": "2025-11-08T14:41:59.519Z"
+}
+
+[2025-11-08T15:59:10.101Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T15:59:10.100Z"
+}
+
+[2025-11-08T15:59:15.453Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T15:59:15.453Z"
+}
+
+[2025-11-08T15:59:16.599Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T15:59:16.599Z"
+}
+
+[2025-11-08T15:59:21.969Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T15:59:21.969Z"
+}
+
+[2025-11-08T16:21:17.210Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T16:21:17.210Z"
+}
+
+[2025-11-08T16:21:18.313Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T16:21:18.313Z"
+}
+
+[2025-11-08T16:21:30.822Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:21:30.822Z"
+}
+
+[2025-11-08T16:24:32.652Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T16:24:32.651Z"
+}
+
+[2025-11-08T16:24:33.591Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T16:24:33.591Z"
+}
+
+[2025-11-08T16:24:39.235Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:24:39.235Z"
+}
+
+[2025-11-08T16:26:49.086Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T16:26:49.081Z"
+}
+
+[2025-11-08T16:26:50.054Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T16:26:50.054Z"
+}
+
+[2025-11-08T16:26:58.235Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:26:58.235Z"
+}
+
+[2025-11-08T16:26:58.833Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:26:58.833Z"
+}
+
+[2025-11-08T16:28:13.163Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-08T16:28:13.161Z"
+}
+
+[2025-11-08T16:28:14.600Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T16:28:14.600Z"
+}
+
+[2025-11-08T16:28:18.709Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:28:18.709Z"
+}
+
+[2025-11-08T16:28:19.152Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:28:19.152Z"
+}
+
+[2025-11-08T16:31:20.076Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:31:20.076Z"
+}
+
+[2025-11-08T16:31:20.761Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:31:20.761Z"
+}
+
+[2025-11-08T16:31:25.501Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:31:25.501Z"
+}
+
+[2025-11-08T16:31:26.099Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:31:26.099Z"
+}
+
+[2025-11-08T16:31:46.995Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:31:46.995Z"
+}
+
+[2025-11-08T16:31:54.916Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:31:54.916Z"
+}
+
+[2025-11-08T16:31:55.441Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:31:55.441Z"
+}
+
+[2025-11-08T16:34:44.190Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:34:44.189Z"
+}
+
+[2025-11-08T16:34:54.348Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:34:54.348Z"
+}
+
+[2025-11-08T16:35:06.642Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:35:06.642Z"
+}
+
+[2025-11-08T16:35:07.201Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:35:07.201Z"
+}
+
+[2025-11-08T16:35:11.872Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:35:11.872Z"
+}
+
+[2025-11-08T16:35:12.497Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:35:12.497Z"
+}
+
+[2025-11-08T16:36:21.799Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-08T16:36:21.799Z"
+}
+
+[2025-11-08T16:36:35.878Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "mlritm",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": ""
+  },
+  "timestamp": "2025-11-08T16:36:35.878Z"
+}
+
+[2025-11-08T16:36:36.528Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:36:36.528Z"
+}
+
+[2025-11-08T16:37:12.915Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "mlritm",
+    "state": "",
+    "ranking": "Semi-Pro",
+    "esportsPurpose": "Fun & Entertainment"
+  },
+  "timestamp": "2025-11-08T16:37:12.915Z"
+}
+
+[2025-11-08T16:37:13.438Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-08T16:37:13.438Z"
+}
+
+[2025-11-09T04:48:05.739Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T04:48:05.738Z"
+}
+
+[2025-11-09T04:48:07.488Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T04:48:07.487Z"
+}
+
+[2025-11-09T04:54:13.371Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "7075571635",
+    "college": "mlritm",
+    "state": "ap",
+    "ranking": "Semi-Pro",
+    "esportsPurpose": "Fun & Entertainment"
+  },
+  "timestamp": "2025-11-09T04:54:13.371Z"
+}
+
+[2025-11-09T04:54:14.108Z] {
+  "action": "Profile Updated",
+  "userId": "IGTC294529BBW",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-09T04:54:14.108Z"
+}
+
+[2025-11-09T04:56:37.011Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T04:56:37.011Z"
+}
+
+[2025-11-09T05:07:53.859Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T05:07:53.858Z"
+}
+
+[2025-11-09T05:07:54.673Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T05:07:54.673Z"
+}
+
+[2025-11-09T05:09:48.506Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T05:09:48.505Z"
+}
+
+[2025-11-09T05:09:49.126Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T05:09:49.126Z"
+}
+
+[2025-11-09T14:22:30.521Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T14:22:30.521Z"
+}
+
+[2025-11-09T14:22:31.372Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-09T14:22:31.372Z"
+}
+
+[2025-11-10T15:14:16.667Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "pilladileep580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:14:16.665Z"
+}
+
+[2025-11-10T15:14:20.749Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "pilladileep580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:14:20.749Z"
+}
+
+[2025-11-10T15:14:38.655Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dileep",
+    "email": "pilladileep580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:14:38.655Z"
+}
+
+[2025-11-10T15:15:14.552Z] {
+  "action": "API Request: POST /verify-email",
+  "method": "POST",
+  "path": "/verify-email",
+  "body": {
+    "email": "pilladileep580@gmail.com",
+    "code": "615074"
+  },
+  "timestamp": "2025-11-10T15:15:14.552Z"
+}
+
+[2025-11-10T15:15:22.428Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:15:22.428Z"
+}
+
+[2025-11-10T15:15:23.022Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:15:23.022Z"
+}
+
+[2025-11-10T15:16:40.418Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:16:40.417Z"
+}
+
+[2025-11-10T15:16:40.993Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:16:40.993Z"
+}
+
+[2025-11-10T15:27:39.670Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:27:39.668Z"
+}
+
+[2025-11-10T15:32:12.370Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:32:12.369Z"
+}
+
+[2025-11-10T15:36:14.738Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dileep",
+    "email": "dileeppilla580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:36:14.737Z"
+}
+
+[2025-11-10T15:37:57.303Z] {
+  "action": "API Request: POST /register",
+  "method": "POST",
+  "path": "/register",
+  "body": {
+    "name": "dileep",
+    "email": "pilladileep580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:37:57.303Z"
+}
+
+[2025-11-10T15:38:35.167Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "pilladileep580@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-10T15:38:35.167Z"
+}
+
+[2025-11-10T15:38:36.295Z] {
+  "action": "User Login",
+  "userId": "6912015f23402025bf3ec3bf",
+  "name": "dileep",
+  "email": "pilladileep580@gmail.com",
+  "timestamp": "2025-11-10T15:38:36.295Z"
+}
+
+[2025-11-10T15:38:44.554Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:38:44.554Z"
+}
+
+[2025-11-10T15:38:45.080Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:38:45.080Z"
+}
+
+[2025-11-10T15:40:32.547Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T15:40:32.546Z"
+}
+
+[2025-11-10T16:14:59.777Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:14:59.777Z"
+}
+
+[2025-11-10T16:21:23.312Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:21:23.311Z"
+}
+
+[2025-11-10T16:23:18.676Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:23:18.675Z"
+}
+
+[2025-11-10T16:23:38.031Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": "",
+    "games": [
+      "Free Fire",
+      "BGMI"
+    ],
+    "avatar": ""
+  },
+  "timestamp": "2025-11-10T16:23:38.031Z"
+}
+
+[2025-11-10T16:23:38.757Z] {
+  "action": "Profile Updated",
+  "userId": "322877576",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-10T16:23:38.756Z"
+}
+
+[2025-11-10T16:26:39.885Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:26:39.884Z"
+}
+
+[2025-11-10T16:27:35.748Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "",
+    "college": "",
+    "state": "",
+    "ranking": "Beginner",
+    "esportsPurpose": "",
+    "games": [
+      "Free Fire",
+      "BGMI"
+    ],
+    "avatar": ""
+  },
+  "timestamp": "2025-11-10T16:27:35.748Z"
+}
+
+[2025-11-10T16:27:36.514Z] {
+  "action": "Profile Updated",
+  "userId": "322877576",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-10T16:27:36.514Z"
+}
+
+[2025-11-10T16:29:53.963Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:29:53.962Z"
+}
+
+[2025-11-10T16:29:54.588Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:29:54.588Z"
+}
+
+[2025-11-10T16:34:33.039Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:34:33.039Z"
+}
+
+[2025-11-10T16:34:51.440Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:34:51.440Z"
+}
+
+[2025-11-10T16:37:50.515Z] {
+  "action": "API Request: PUT /profile",
+  "method": "PUT",
+  "path": "/profile",
+  "body": {
+    "name": "dileep",
+    "mobile": "7075571635",
+    "college": "mlritm",
+    "state": "ap",
+    "ranking": "Semi-Pro",
+    "esportsPurpose": "Fun & Entertainment",
+    "games": [
+      "Free Fire"
+    ],
+    "avatar": ""
+  },
+  "timestamp": "2025-11-10T16:37:50.515Z"
+}
+
+[2025-11-10T16:37:51.146Z] {
+  "action": "Profile Updated",
+  "userId": "498614039",
+  "name": "dileep",
+  "updatedFields": [
+    "name",
+    "mobile",
+    "college",
+    "state",
+    "ranking",
+    "esportsPurpose"
+  ],
+  "timestamp": "2025-11-10T16:37:51.146Z"
+}
+
+[2025-11-10T16:54:11.133Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:54:11.133Z"
+}
+
+[2025-11-10T16:54:11.770Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:54:11.770Z"
+}
+
+[2025-11-10T16:58:31.345Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:58:31.345Z"
+}
+
+[2025-11-10T16:59:07.887Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T16:59:07.887Z"
+}
+
+[2025-11-10T17:05:39.958Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:05:39.957Z"
+}
+
+[2025-11-10T17:08:38.764Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:08:38.764Z"
+}
+
+[2025-11-10T17:08:42.715Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:08:42.715Z"
+}
+
+[2025-11-10T17:09:02.356Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:09:02.356Z"
+}
+
+[2025-11-10T17:10:26.086Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:10:26.086Z"
+}
+
+[2025-11-10T17:10:26.798Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:10:26.798Z"
+}
+
+[2025-11-10T17:13:17.460Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:13:17.460Z"
+}
+
+[2025-11-10T17:17:50.688Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:17:50.688Z"
+}
+
+[2025-11-10T17:18:00.712Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:18:00.712Z"
+}
+
+[2025-11-10T17:18:01.266Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:18:01.266Z"
+}
+
+[2025-11-10T17:23:38.192Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:23:38.192Z"
+}
+
+[2025-11-10T17:23:51.600Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T17:23:51.600Z"
+}
+
+[2025-11-10T18:00:27.337Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-10T18:00:27.337Z"
+}
+
+[2025-11-11T11:43:43.352Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T11:43:43.352Z"
+}
+
+[2025-11-11T11:43:44.266Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T11:43:44.266Z"
+}
+
+[2025-11-11T11:48:10.831Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T11:48:10.830Z"
+}
+
+[2025-11-11T12:04:06.473Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:04:06.473Z"
+}
+
+[2025-11-11T12:04:07.590Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:04:07.590Z"
+}
+
+[2025-11-11T12:07:41.229Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:07:41.228Z"
+}
+
+[2025-11-11T12:07:51.717Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:07:51.717Z"
+}
+
+[2025-11-11T12:07:52.280Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:07:52.280Z"
+}
+
+[2025-11-11T12:17:51.814Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-11T12:17:51.813Z"
+}
+
+[2025-11-11T12:17:53.124Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-11T12:17:53.123Z"
+}
+
+[2025-11-11T12:18:05.246Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-11T12:18:05.246Z"
+}
+
+[2025-11-11T12:18:06.031Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-11T12:18:06.031Z"
+}
+
+[2025-11-11T12:26:36.929Z] {
+  "action": "API Request: POST /login",
+  "method": "POST",
+  "path": "/login",
+  "body": {
+    "email": "dilipmlritm@gmail.com",
+    "password": "dileep@23"
+  },
+  "timestamp": "2025-11-11T12:26:36.928Z"
+}
+
+[2025-11-11T12:26:38.246Z] {
+  "action": "User Login",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-11T12:26:38.246Z"
+}
+
+[2025-11-11T12:37:54.667Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:37:54.666Z"
+}
+
+[2025-11-11T12:37:55.392Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:37:55.392Z"
+}
+
+[2025-11-11T12:48:50.780Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:48:50.773Z"
+}
+
+[2025-11-11T12:48:51.988Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:48:51.988Z"
+}
+
+[2025-11-11T12:52:34.266Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:52:34.266Z"
+}
+
+[2025-11-11T12:52:34.848Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T12:52:34.848Z"
+}
+
+[2025-11-11T13:02:39.445Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T13:02:39.444Z"
+}
+
+[2025-11-11T13:05:11.848Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T13:05:11.848Z"
+}
+
+[2025-11-11T13:10:13.915Z] {
+  "action": "API Request: GET /profile",
+  "method": "GET",
+  "path": "/profile",
+  "body": {},
+  "timestamp": "2025-11-11T13:10:13.914Z"
+}
+

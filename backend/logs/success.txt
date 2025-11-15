@@ -1,0 +1,85 @@
+[2025-11-05T16:23:02.410Z] {
+  "action": "User Registration",
+  "userId": "690b79e238b9218163c067bd",
+  "name": "dileep",
+  "email": "pilladileep580@gmail.com",
+  "verificationCode": "658630",
+  "timestamp": "2025-11-05T16:23:02.410Z"
+}
+
+[2025-11-05T16:23:25.376Z] {
+  "action": "Email Verified",
+  "userId": "690b79e238b9218163c067bd",
+  "name": "dileep",
+  "email": "pilladileep580@gmail.com",
+  "timestamp": "2025-11-05T16:23:25.376Z"
+}
+
+[2025-11-05T16:29:25.797Z] {
+  "action": "User Registration",
+  "userId": "690b7b6038b9218163c067c2",
+  "name": "dileep",
+  "email": "ycom26876@gmail.com",
+  "verificationCode": "432495",
+  "timestamp": "2025-11-05T16:29:25.796Z"
+}
+
+[2025-11-05T16:29:47.594Z] {
+  "action": "Email Verified",
+  "userId": "690b7b6038b9218163c067c2",
+  "name": "dileep",
+  "email": "ycom26876@gmail.com",
+  "timestamp": "2025-11-05T16:29:47.594Z"
+}
+
+[2025-11-06T15:46:40.462Z] {
+  "action": "User Registration",
+  "userId": "690cc2db0d0b964b12116f6d",
+  "name": "dilip",
+  "email": "dilipmlritm@gmail.com",
+  "mobile": "7075571635",
+  "emailVerificationCode": "434442",
+  "mobileVerificationCode": "466846",
+  "timestamp": "2025-11-06T15:46:40.462Z"
+}
+
+[2025-11-08T14:41:12.162Z] {
+  "action": "User Registration",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T14:41:12.162Z"
+}
+
+[2025-11-08T14:42:00.089Z] {
+  "action": "Email Verified",
+  "userId": "690f5684e20b01e7c7a1dd39",
+  "name": "dileep",
+  "email": "dilipmlritm@gmail.com",
+  "timestamp": "2025-11-08T14:42:00.089Z"
+}
+
+[2025-11-10T15:14:43.544Z] {
+  "action": "User Registration",
+  "userId": "6912015f23402025bf3ec3bf",
+  "name": "dileep",
+  "email": "pilladileep580@gmail.com",
+  "timestamp": "2025-11-10T15:14:43.544Z"
+}
+
+[2025-11-10T15:15:15.093Z] {
+  "action": "Email Verified",
+  "userId": "6912015f23402025bf3ec3bf",
+  "name": "dileep",
+  "email": "pilladileep580@gmail.com",
+  "timestamp": "2025-11-10T15:15:15.093Z"
+}
+
+[2025-11-10T15:36:19.670Z] {
+  "action": "User Registration",
+  "userId": "6912066f23402025bf3ec3ca",
+  "name": "dileep",
+  "email": "dileeppilla580@gmail.com",
+  "timestamp": "2025-11-10T15:36:19.670Z"
+}
+
