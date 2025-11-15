@@ -1,9 +1,9 @@
-'use client';
+"use client";
 import { useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import '../login-form.css';
 
-export default function ResetPassword() {
+export default function ResetPasswordClient() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -51,9 +51,7 @@ export default function ResetPassword() {
       <form className="form" onSubmit={handleSubmit}>
         <h2 className="text-2xl font-bold text-center mb-6 text-black">Create New Password</h2>
         <p className="p text-center mb-4">Enter your new password for {email}</p>
-        
         {error && <div className="text-red-500 text-sm mb-4 text-center">{error}</div>}
-        
         <div className="flex-column">
           <label>New Password</label>
         </div>
@@ -71,7 +69,6 @@ export default function ResetPassword() {
             required
           />
         </div>
-        
         <div className="flex-column">
           <label>Confirm Password</label>
         </div>
@@ -89,11 +86,10 @@ export default function ResetPassword() {
             required
           />
         </div>
-        
         <button className="button-submit" type="submit" disabled={loading}>
           {loading ? 'Resetting...' : 'Reset Password'}
         </button>
       </form>
     </div>
-  )
+  );
 }
